@@ -1,0 +1,46 @@
+{
+  "employees": [
+    {
+      "id": 209036408,
+      "firstName": "Danielle",
+      "lastName": "Trachterman",
+      "Email": "danielle@gmail.com",
+      "birthday": "17.01.1997",
+      "salary": 5600
+    },
+    {
+      "id": 209036407,
+      "firstName": "Or",
+      "lastName": "Mezamer",
+      "Email": "or@gmail.com",
+      "birthday": "1.03.1997",
+      "salary": 4600
+    }
+  ],
+  "messages": [
+    {
+      "idn": 209036408,
+      "to": "Danielle Trachterman",
+      "cc": "",
+      "subject": "",
+      "message": "",
+      "id": 1
+    },
+    {
+      "idn": 209036408,
+      "to": "Danielle Trachterman",
+      "cc": "test",
+      "subject": "rrrrr",
+      "message": "rrrrrrddsd",
+      "id": 2
+    },
+    {
+      "idn": 209036408,
+      "to": "Danielle Trachterman",
+      "cc": "ffff",
+      "subject": "ddfdd",
+      "message": "dfsddsds",
+      "id": 3
+    }
+  ]
+}

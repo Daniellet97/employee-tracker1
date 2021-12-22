@@ -1,0 +1,20 @@
+{{selectedEmployees}}
+<form *ngFor="let employee of selectedEmployees"> 
+    {{employee.firstName}}
+    {{employee.lastName}}
+ <label for="firstName">First Name</label>
+    <input type="text"[(ngModel)] = "employee.firstName" name="firstName">
+    <label for="lastName">Last Name</label>
+
+    <input type="text" [(ngModel)] = "employee.lastName" name="lastName">
+    <label for="E-mail">E-mail</label>
+
+    <input type="email" [(ngModel)] = "employee.Email" name="E-mail">
+    <label for="salary">salary</label>
+
+    <input type="text" [(ngModel)] = "employee.salary" name="salary"> 
+    <button (click)="submitBtn()">Submit</button>
+
+<app-send-email [employee]=employee></app-send-email>
+</form>
+    
